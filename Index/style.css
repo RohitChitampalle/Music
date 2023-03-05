@@ -1,0 +1,79 @@
+/* holy
+boly
+toly */
+section {
+  /* border: 2px solid; */
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#secmain {
+  /* border: 2px solid; */
+  width: 80vw;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#secmain #sele {
+  /* border: 2px solid; */
+  height: 100px;
+  width: 100px;
+}
+#holy {
+  /* border: 2px solid; */
+  width: 100px;
+  overflow: hidden;
+  /* height: 30px; */
+
+  margin: 10px;
+}
+#boly {
+  /* border: 2px solid; */
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  overflow: hidden;
+}
+#toly {
+  /* border: 2px solid; */
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  overflow: hidden;
+}
+/* a {
+  color: black;
+  text-decoration: none;
+  border: 2px solid;
+  padding: 8px;
+  border-radius: 20px;
+} */
+.imgg {
+  /* border: 2px solid; */
+  height: 330px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  transition: 0.4s;
+}
+img {
+  border-radius: 30px;
+}
+h1 {
+  box-shadow: 10px 10px 10px black;
+}
+img:hover {
+  height: 300px;
+  box-shadow: 0 0 10px 10px black;
+  transition: 0.4s;
+}
+.words {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(20, 20, 20);
+  text-align: center;
+  padding: 10px;
+  text-shadow: 6px 3px 4px rgb(219, 55, 55);
+}
